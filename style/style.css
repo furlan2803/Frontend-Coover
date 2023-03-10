@@ -10,7 +10,7 @@ body{
 
 .imgHome{
     margin-top: 5vh;
-    margin-left: 5vw;
+    margin-left: 3vw;
     width: 45vw;
     height: 80vh;
 }
@@ -19,25 +19,36 @@ body{
     margin-top: 10vh;
     width: 45vw;
     height: 80vh;
+    margin-left: 10vw;
 }
 
 .logoCoover{
-    margin-left: 10vw;
+    margin-left: 3vw;
     width: 15vw;
     height: 15vh;
 }
 
 .logoCoover2{
     margin-top: 20vh;
-    margin-left: 12vw;
+    margin-left: 7vw;
     width: 15vw;
     height: 15vh;
 }
 
-p{
+.testeCoover{
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+.conectarWallet{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    width: 22vw;
+    margin-left: 3vw;
 }
 
 .homeText{
@@ -58,7 +69,6 @@ p{
     margin-top: 7vh;
     align-items: center;
     justify-content: center;  
-    margin-left: 8vw;
 }
 
 .textTitulo{
@@ -66,7 +76,8 @@ p{
     margin-top: 5vh;
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2.2rem;
+    font-size: 1.3rem;
+    margin-left: 3vw;
 }
 
 #continuar{
@@ -74,7 +85,7 @@ p{
     margin-top: 3vh;
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
 
     padding: 10px;
   
@@ -83,13 +94,14 @@ p{
     cursor: pointer;
     text-align: center;
     width: 9vw;
+    margin-left: 3vw;
 }
 .inputValue{
     margin-top: 5vh;
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5rem;
-    margin-left: 12vw;
+    font-size: 1.1rem;
+    margin-left: 7vw;
 }
 
 .inputImei{
@@ -97,37 +109,38 @@ p{
     height: 4vh;
     border-radius: 8px;
     border: none;
-    margin-left: 12vw;
+    margin-left: 7vw;
     margin-top: 2vh;
     text-decoration: none;
     outline: 0;
     padding: 10px;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 
 .text3{
     margin-top: 3vh;
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2.3rem;
-    margin-left: 12vw;
+    font-size: 1.6rem;
+    margin-left: 7vw;
 }
 
 .text{
     margin-top: 3vh;
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.7rem;
+    font-size: 1.1rem;
+    margin-left: 3vw;
 }
 
 button{
-    padding: 10px;
+    padding: 5px;
     background-color: #00C171;
     color: #fff;
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    margin-right: 10px;
+    width: 30vw;
 }
 
 .hash{
@@ -140,8 +153,9 @@ button{
     margin-top: 3vh;
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2rem;
-    margin-left: 12vw;
+    font-size: 1.1rem;
+    margin-left: 7vw;
+    width: 10vw;
 }
   
 .hash2{
@@ -152,6 +166,6 @@ button{
     cursor: pointer;
     margin-top: 3vh;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2rem;
-    margin-left: 12vw;
+    font-size: 0.8rem;
+    margin-left: 7vw;
 }
