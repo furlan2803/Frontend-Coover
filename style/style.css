@@ -169,3 +169,97 @@ button{
     font-size: 0.8rem;
     margin-left: 7vw;
 }
+
+@media (max-width: 1000px) {
+    .imgHome2 {
+      display: none;
+    }
+
+    .imgHome {
+        display: none;
+    }
+
+    .testeCoover{
+        color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.8rem;
+        text-align: center;
+        padding-left: 8vw;
+    }
+
+    .logoCoover, .logoCoover2{
+        margin-left: 8vw;
+        width: 35vw;
+        height: 15vh;
+    }
+    
+    .conectarWallet{
+        color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.8rem;
+        width: 46vw;
+        margin-left: 8vw;
+    }
+
+    .logoMeta{
+        width: 5vw;
+        height: 4vh;
+        margin-right: 1vw;
+    }
+
+    .textTitulo{
+        margin-top: 5vh;
+        color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9rem;
+        margin-left: 8vw;
+    }
+
+    .text{
+        margin-top: 3vh;
+        color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.7rem;
+        margin-left: 8vw;
+    }
+
+    #continuar{
+    
+        font-size: 0.8rem;
+        padding: 10px;
+        margin-left: 8vw;
+        width: 20vw;
+    }
+
+    .text3{
+        margin-top: 3vh;
+        color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5rem;
+        margin-left: 8vw;
+    }
+
+    .inputImei{
+        width: 50vw;
+        margin-left: 8vw;
+        font-size: 0.8rem;
+    }
+
+    .inputValue{
+        margin-left: 8vw;
+    }
+
+    .hash{
+        padding: 10px;
+        margin-top: 3vh;
+        font-size: 0.8rem;
+        margin-left: 8vw;
+        width: 22vw;
+    }
+
+    .hash2{
+        padding: 10px;
+        font-size: 0.6rem;
+        margin-left: 7vw;
+    }
+}
