@@ -60,7 +60,7 @@ document.getElementById('conectar').addEventListener('click', async () => {
   }
 
   document.getElementById('continuar').addEventListener('click', async () => {
-    window.location.href = "../html/home.html";
+    window.location.href = "./home.html";
   });
   
 //   // Quando o botão "Desconectar" for clicado
