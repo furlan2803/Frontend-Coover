@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../../../html/Seguradora/Login/verificacao.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.5/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.5/dist/sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="./verficacao.css">
+    <title>Login</title>
+</head>
+<body>
+    <section>
+        <img class="logoCoover" src="../../../img/LogoCoover.svg"/>
+        <p class="textoInformacao">Digite o código de seis dígitos que enviamos para o seu e-mail cadastrado.</p>
+        <p class="email">henri.harari@gmail.com</p>
+
+        <div class="inputs">
+            <input type="number" class="codigoInput">
+            <input type="number" class="codigoInput">
+            <input type="number" class="codigoInput">
+            <input type="number" class="codigoInput">
+            <input type="number" class="codigoInput">
+            <input type="number" class="codigoInput">
+        </div>
+
+        <button class="botaoLogin" onclick=confirmCreation() class="login">LOGIN</button>
+        <p class="alinhamento"><a class="codigoNaoChegou" onclick="alert('Switch ativado!')">Não recebi meu código</a></p>
+
+        <script>
+            const inputs = document.querySelectorAll('input')
+            inputs.forEach((input) => {
+                console.log(input.value)
+            })
+        </script>
+    </section>
+</body>
+<script src="./verificacao.js"></script>
+</html>

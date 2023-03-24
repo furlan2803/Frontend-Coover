@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #19191D;
+}
+
+@media (min-width: 300px) and (max-width: 480px) {
+    
+    .botaoLogin{
+        padding: 10px;
+        background-color: #00C171;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        margin-top: 3vh;
+        color: #ffffff;
+        font-size: 1.2rem;
+        margin-left: 10vw;
+        width: 80vw;
+    }
+
+    .imgHome2{
+        margin-top: 13vh;
+        width: 85vw;
+        margin-left: 5vw;
+    }
+    
+    .logoCoover2{
+        margin-left: 25vw;
+        width: 45vw;
+        margin-top: 5vh;
+    }
+
+    .inputValue{
+        color: #ffffff;
+        margin-top: 8vw;
+        margin-left: 10vw;
+    }
+
+    .inputImei{
+        width: 80vw;
+        height: 6vh;
+        border-radius: 8px;
+        border: none;
+        margin-left: 10vw;
+        margin-top: 1vh;
+        text-decoration: none;
+        outline: 0;
+        padding: 10px;
+        font-size: 1.1rem;
+    }
+
+    .alinhamentoVoltar{
+        margin-top: 3vh;
+        text-align: center;
+    }
+
+    .botaoVoltar{
+        color: #ffffff;
+        cursor: pointer;
+    }
+}
+
+
+
+@media (min-width: 1025px) and (max-width: 1920px) {
+    
+    .imgHome2{
+        margin-top: 10vh;
+        width: 37vw;
+        margin-left: 10vw;
+    }
+    
+    .logoCoover2{
+        margin-top: 30vh;
+        margin-left: 15vw;
+        width: 15vw;
+    }
+    
+    .home{
+        display: flex;
+    }
+    
+    .inputValue{
+        margin-top: 5vh;
+        color: #ffffff;
+        font-size: 1.5rem;
+        margin-left: 10vw;
+    }
+    
+    .inputImei{
+        width: 25vw;
+        height: 7vh;
+        border-radius: 8px;
+        border: none;
+        margin-left: 10vw;
+        margin-top: 1vh;
+        text-decoration: none;
+        outline: 0;
+        padding: 10px;
+        font-size: 1.1rem;
+    }
+
+    
+    .botaoLogin{
+        padding: 10px;
+        background-color: #00C171;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        margin-top: 3vh;
+        color: #ffffff;
+        font-size: 1.2rem;
+        margin-left: 10vw;
+        width: 25vw;
+    }
+
+    .alinhamentoVoltar{
+        margin-top: 3vh;
+        margin-left: 20.8vw;
+    }
+
+    .botaoVoltar{
+        color: #ffffff;
+        cursor: pointer;
+    }
+}
+
+

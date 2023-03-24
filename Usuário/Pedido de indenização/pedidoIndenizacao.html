@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Indenização</title>
+        <link rel="stylesheet" href="../Pedido de indenização/pedidoIndenizacao.css">
+    </head>
+<body>
+    <div class="alinhamentoUser">
+        <div>
+            <nav class="navbar">
+                <img class="logo" src="../../img/LogoCoover.svg">
+                <div class="pesquisa" >
+                    <img src="../../img/search.png">
+                    <input class="barraPesquisa" type="text" placeholder="Pesquisar...">
+                </div>
+                <ul class="opcoesNavbar">
+                    <div class="sidebarInicio">
+                        <img class="imgSidebar" src="../../img/sidebar-home.png">
+                        <li><a href="./dashboardUser.html" class="textoSidebar">Página Inicial</a></li>
+                    </div>
+                    <div class="sidebarSolicitacoes">
+                        <img class="imgSidebar" src="../../img/notifications.png">
+                        <li><a href="../Solicitação Aprovada/solicitacaoAprovada.html" class="textoSidebar">Solicitações</a></li>
+                    </div>
+                    <div class="sidebarIndenizacoes">
+                        <img class="imgSidebar" src="../../img/inventory.png">
+                        <li><a href="../Pedido de indenização/novaIndenizacao.html" class="textoSidebar">Indenizações</a></li>
+                    </div>
+                </ul>
+                <button class="saida" id="saida">
+                    <img src="../../img/logout.png">
+                </button>
+            </nav>
+        </div>
+        <div class="indenizacaoPagina">
+            <div class="indenizacao">
+                <a href="../Dashboard/dashboardUser.html"><img href class="imgSetaEsquerda" src="../../img/imgSetaEsquerda.svg"></a>
+                <h1 class="tituloIndenizacao">Indenização</h1>
+                <img class="imgEthereum" src="../../../img/ethereum.png">
+            </div>
+            <div>
+                <h2 class="tituloSinistro">Sinistro</h2>
+                <div class="primeiroCard">
+                    <button id="novoSinistro" class="cardDashboard">
+                        <div>
+                            <img class="imgBotaoUser" src="../../../img/imgBotaoUser.svg">
+                        </div>
+                        <div class="texto">
+                            <h5 class="cardTitulo">Novo Sinistro</h5>
+                            <p class="cardTexto">Abrir um chamado</p>
+                        </div>
+                        <div class="imgSetaAlinhamento">
+                            <img class="imgSetaDireita" src="../../../img/imgSeta.svg">
+                        </div>
+                    </button>
+                </div>
+                <div class="segundoCard">
+                    <button id="aprovadoIndenizacao" class="cardDashboard">
+                        <div>
+                            <img class="imgBotaoUser" src="../../../img/imgBotaoUser.svg">
+                        </div>
+                        <div class="texto">
+                            <h5 class="cardTitulo">Solucionadas</h5>
+                            <p class="cardTexto">Sinistros finalizados</p>
+                        </div>
+                        <div class="imgSetaAlinhamento">
+                            <img class="imgSetaDireita" src="../../../img/imgSeta.svg">
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="linha1">
+                <div>
+                <h5 class="tituloWallet">Saldo da wallet - Individual nos grupos</h5>
+                <div class="cardWallet">
+                    <div class="cardWalletTexto">R$ 30.000,00</div>
+                </div>
+                </div>
+            </div>
+            <div class="linha2">
+                <div>
+                <h5 class="tituloWalletGrupo">Saldo da wallet dos grupos</h5>
+                <div class="cardWallet">
+                    <div class="cardWalletTexto">R$ 300.000,00</div>
+                </div>
+                </div>
+            </div>
+            <div class="linha3">
+                <h4 class="tituloAndamento">Sinistros em andamento</h4>
+            </div>
+            <div class="linha4">
+                <div class="cardSinistro">
+                    <h5 class="cardTituloSinistro">02.03</h5>
+                    <p class="cardTextoSinistro">Procure nas configurações...</p>
+                    <img class="imgSetaDireita" src="../../../img/imgSeta.svg">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="./pedidoIndenizacao.js"></script> 
+</body>
+</html>
+

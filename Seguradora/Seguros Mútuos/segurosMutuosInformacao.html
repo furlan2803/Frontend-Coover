@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coover - Participantes</title>
+    <link rel="stylesheet" href="./segurosMutuosInformacao.css">
+</head>
+<body>
+    <nav>
+        <div class="logo"></div>
+        <ul>
+            <li><a href="" class="sidebar-dashboard">Dashboard</a></li>
+            <li><a href="" class="sidebar-revenue">Revenue</a></li>
+            <li><a href="" class="sidebar-notifications">Notifications</a></li>
+            <li><a href="" class="sidebar-analytics">Analytics</a></li>
+            <li><a href="" class="sidebar-inventory">Inventory</a></li>
+        </ul>
+        <button class="logout">Logout</button>
+    </nav>
+    <main>
+        <div class="alinhamentoPagina" onclick="voltarSeguroVisualizacao()">
+            <img class="voltar" id="voltarVisualizacao" src="../../img/imgSetaEsquerda.svg"/>
+            <h1>Nome Grupo</h2>
+            <img src="../../img/ethereum.png"/>
+        </div>
+        <h2>Informações Gerais</h2>
+        <div class="info-container">
+            <div class="info-wrapper">
+                <label>Situação</label>
+                <p class="saldo-total">Ativo</p>
+            </div>
+            
+            <div class="info-wrapper">
+                <label>Quant Usuários</label>
+                <p class="saldo-total">20</p>
+            </div>
+
+            <div class="info-wrapper">
+                <label>Data Criação</label>
+                <p class="saldo-total"><img class="imgData" src="../../img/calendar.png"/> 31 Agosto, 2023</p>
+            </div>
+            
+            <div class="info-wrapper">
+                <label>Data Renovação</label>
+                <p class="saldo-total"><img class="imgData" src="../../img/calendar.png"/> 31 Agosto, 2023</p>
+            </div>
+
+            <div class="info-wrapper">
+                <label>Saldo Total</label>
+                <p class="saldo-total">R$ 80.000,00</p>
+            </div>            
+        </div>
+
+        <button class="button" onclick="visualizarParticipantes()" >Visualizar Participantes</button>
+
+    </main>
+    <img class="background-image" src="../../img/imgHome2.svg">
+</body>
+<script src="./segurosMutuos.js"></script>
+</html>

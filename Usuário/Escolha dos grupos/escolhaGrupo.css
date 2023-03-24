@@ -1,0 +1,428 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #19191D;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width: 320px) and (max-width: 480px) { 
+
+
+    .alinhamentoUser{
+        display: flex;
+    }
+
+    .navbar{
+        display: none;
+    }
+
+    .imgLogo{
+        width: 30vw;
+        margin-left: 9rem;
+        margin-top: 4rem;
+        margin-bottom: 2vh;
+    }
+
+    .textoInicial{
+        color: #ffffff;
+        margin-left: 8rem;
+        margin-top: 2rem;
+    }
+
+    .imgSeta{
+        margin-top: 3rem;
+        margin-left: 3rem;
+        width: 3vw;
+    }
+
+    .imei{
+        display: grid;
+    }
+
+    .inputTitulo{
+        color: #ffffff;
+        font-size: 0.8rem;
+        margin-top: 2.5vh;
+        margin-left: 10vw;
+    }
+    
+    .inputFormatacao{
+        width: 80vw;
+        height: 4vh;
+        border-radius: 8px;
+        padding-left: 7px;
+        border: none;
+        margin-left: 10vw;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        font-size: 0.7rem;
+        box-shadow: 0 0 0 0;
+        border: 0 none;
+        outline: 0;
+        background-color: #303030;
+        color: #ffffff;
+    }
+
+    .table{
+        color: #ffffff;
+    }
+
+    #table-container {
+        height: 60vh; 
+        overflow-y: auto; 
+        margin-left: 1rem; 
+        margin-top: 1rem;
+        width: 90vw;
+        margin-bottom: 1.5rem;
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+
+    td, th {
+        border: none;
+    }
+
+    thead{
+        position: sticky;
+        top: 0;
+        background-color: #1f1f1f;
+    }
+
+    td{
+        color: rgb(206, 206, 206);
+    }
+
+
+    /* Remove a aparência padrão da barra de rolagem */
+    ::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: #f1f1f1;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: #888;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: #555;
+    }
+
+    .table-container {
+        scrollbar-width: thin;
+        scrollbar-color: #535353 #8d8d8d;
+    }
+    
+    .table-container ::-webkit-scrollbar-track {
+        background: #7e7e7e;
+    }
+
+    .table-container ::-webkit-scrollbar-thumb {
+        background-color: #373737;
+        border-radius: 20px;
+        border: 3px solid #696969;
+    }
+
+    .table-container ::-webkit-scrollbar-thumb:hover {
+        background-color: #555;
+    }
+
+    .informacaoIcon{
+        width: 4vw;
+        margin-left: 2vw;
+        cursor: pointer;
+    } 
+
+
+
+
+   
+
+    .botaoEntrarGrupo{
+        width: 90vw;
+        height: 4vh;
+        margin-left: 1rem;
+        border-radius: 8px;
+        padding-left: 7px;
+        border: none;
+        font-size: 1rem;
+        box-shadow: 0 0 0 0;
+        border: 0 none;
+        outline: 0;
+        background-color: #00C171;
+        color: #ffffff;
+        margin-top: 2vw;
+    }
+
+    .botaoSolicitarGrupo{
+        width: 90vw;
+        height: 4vh;
+        margin-left: 1rem;
+        border-radius: 8px;
+        padding-left: 7px;
+        border: none;
+        font-size: 1rem;
+        box-shadow: 0 0 0 0;
+        border: 0 none;
+        outline: 0;
+        background-color: #06266A;
+        color: #ffffff;
+        margin-top: 2vw;
+        margin-bottom: 1.5rem;
+    }
+
+
+
+    .imgSmartContract2{
+        display: none;
+    }
+}
+
+
+@media (min-width: 1024px) and (max-width: 1920px) { 
+
+
+    .alinhamentoUser{
+        display: flex;
+    }
+
+    .navbar{
+        width: 15vw;
+        flex-direction: column;
+        background-color: #09090A;
+    }
+
+    .logo {
+        width: 10vw;
+        margin-top: 2rem;
+    }
+
+    .pesquisa{
+        width: 13vw;
+        margin-top: 3rem;
+        padding: 0.8rem;
+        display: flex;
+        border: none;
+        outline: none;
+        border-radius: 8rem;
+        background-color: #1F1F22;
+    }
+
+    .barraPesquisa{
+        background-color: #1F1F22;
+        border: none;
+        text-indent: 1.3rem;
+        color: #EFEFEF;
+        font-size: .8rem;
+        width: 10vw;
+    }
+
+    .opcoesNavbar{
+        margin-top: 1.5rem;
+        padding-top: 2rem;
+        padding-left: 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        list-style: none;
+    }
+
+    .sidebarInicio, .sidebarSolicitacoes, .sidebarIndenizacoes{
+        display: flex;
+        margin-bottom: 1.2rem;
+    }
+
+    .imgSidebar{
+        margin-left: 0rem;
+    }
+
+    .textoSidebar{
+        margin-left: 1rem;
+        font-size: 1rem;
+        text-decoration: none;
+        color: #EFEFEF;
+
+    }
+
+    .saida {
+        background-color: transparent;
+        border: none;
+        margin-top: 10.5rem;
+    }
+
+    .imgLogo{
+        width: 12vw;
+        margin-left: 10vw;
+        margin-top: 6vh;
+        margin-bottom: 2vh;
+    }
+
+    .textoInicial{
+        color: #ffffff;
+        margin-left: 10vw;
+        margin-top: 2.5vh;
+    }
+
+    .imgSeta{
+        margin-top: 3rem;
+        margin-left: 3rem;
+        width: 1vw;
+    }
+    .imei{
+        display: grid;
+    }
+
+    .inputTitulo{
+        color: #ffffff;
+        font-size: 0.8rem;
+        margin-top: 2.5vh;
+        margin-left: 10vw;
+    }
+    
+    .inputFormatacao{
+        width: 30vw;
+        height: 6vh;
+        border-radius: 8px;
+        padding-left: 7px;
+        border: none;
+        margin-left: 10vw;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        font-size: 0.7rem;
+        box-shadow: 0 0 0 0;
+        border: 0 none;
+        outline: 0;
+        background-color: #303030;
+        color: #ffffff;
+    }
+
+    .table{
+        color: #ffffff;
+    }
+
+    #table-container {
+        height: 40vh; 
+        overflow-y: auto; 
+        margin-left: 10vw; 
+        width: 40vw;
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+
+    td, th {
+        border: none;
+    }
+
+    thead{
+        position: sticky;
+        top: 0;
+        background-color: #1f1f1f;
+    }
+
+    td{
+        color: rgb(206, 206, 206);
+    }
+
+
+    /* Remove a aparência padrão da barra de rolagem */
+    ::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: #f1f1f1;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: #888;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: #555;
+    }
+
+    .table-container {
+        scrollbar-width: thin;
+        scrollbar-color: #535353 #8d8d8d;
+    }
+    
+    .table-container ::-webkit-scrollbar-track {
+        background: #7e7e7e;
+    }
+
+    .table-container ::-webkit-scrollbar-thumb {
+        background-color: #373737;
+        border-radius: 20px;
+        border: 3px solid #696969;
+    }
+
+    .table-container ::-webkit-scrollbar-thumb:hover {
+        background-color: #555;
+    }
+
+    .informacaoIcon{
+        width: 1.5vw;
+        margin-left: 1vw;
+        cursor: pointer;
+    } 
+
+
+
+
+    .alinharBotao{
+        display: flex;
+    }
+
+    .botaoEntrarGrupo{
+        width: 19vw;
+        height: 6vh;
+        margin-left: 10vw;
+        border-radius: 8px;
+        padding-left: 7px;
+        border: none;
+        font-size: 1rem;
+        box-shadow: 0 0 0 0;
+        border: 0 none;
+        outline: 0;
+        background-color: #00C171;
+        color: #ffffff;
+        margin-top: 2vw;
+    }
+
+    .botaoSolicitarGrupo{
+        width: 19vw;
+        height: 6vh;
+        margin-left: 1vw;
+        border-radius: 8px;
+        padding-left: 7px;
+        border: none;
+        font-size: 1rem;
+        box-shadow: 0 0 0 0;
+        border: 0 none;
+        outline: 0;
+        background-color: #06266A;
+        color: #ffffff;
+        margin-top: 2vw;
+    }
+
+    .imgSmartContract{
+        width: 50vw;
+        margin-left: 8vw;
+        margin-top: 10rem;
+    }
+
+    .imgSmartContract2{
+        width: 20vw;
+    }
+}

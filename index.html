@@ -4,39 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/web3@1.3.5/dist/web3.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <link rel="stylesheet" href="./style/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <link rel="stylesheet" href="./style/styleGeral.css">
     <title>Coover</title>
 </head>
 <body>
-  
-    <div class="home">
-        <div>
-            <img class="imgHome" src="./img/imgHome.png" alt="logo">
-        </div>
-        <div>
-            <div class="homeText">
-                <img class="logoCoover" src="./img/LogoCoover.svg" alt="logo">
-                <p class="testeCoover">Entre na sua conta e usufrua do melhor dos seguros mútuos</p>
+    <section>
+        <div class="home">
+            <div  class="alinhamento1">
+                <img class="imgHome2" src="../../img/imgHome2.svg">
             </div>
-            
-            <button id="metamask" class="conectarWallet">
-                <img class="logoMeta" src="./img/LogoMeta.svg" alt="metamask">
-                <p id="conectar">Conectar com a sua wallet</p>
-            </button>
-
-            <p class="textTitulo" id="info"></p>
-            <p class="text" id="endereco"></p>
-            <p class="text" id="saldo"></p>
-            <p id="continuar"></p>
-            <!-- <button id="desconectar">Desconectar</button> -->
+            <div class="alinhamento2">
+                <img class="logoCoover2" src="../../img/LogoCoover.svg">
+                <p class="textoHome">Tenha acesso ao melhor dos seguros!</p>
+                <button class="botaoUsuario" id="user">Plataforma Usuário</button> 
+                <button class="botaoSeguradora" id="seguradora">Plataforma Seguradora</button> 
+            </div>
         </div>
-    </div>
+    </section>
 </body>
-<script src="./js/conexao.js"></script>
+<script src="./index.js"></script>
 </html>
-
-
-
-

@@ -1,0 +1,135 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        background-color: #19191D;
+        font-family: 'Roboto', sans-serif;
+    }
+
+@media (min-width: 320px) and (max-width: 480px) { 
+
+    
+
+    .titulo{
+        color: #ffffff;
+        font-size: 1.5rem;
+        margin-left: 2rem;
+        margin-top: 4rem;
+    }
+
+    .primeiroCard{
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+
+    .segundoCard, .terceiroCard, .quartoCard{
+        margin-left: 2rem;
+        margin-top: 0.7rem;
+    }
+
+    .cardDashboard{
+        display: flex;
+        border: none;
+        background-color: #1C1B20;
+        align-items: center;
+        text-decoration: none;
+        width: 80vw;
+        border-radius: 1vh;
+    }
+
+    .imgBotaoUser{
+        height: 3rem;
+    }
+
+    .texto{
+        margin-left: 2rem;
+        width: 50vw;
+        text-align: left;
+        color: #F2F2F2;
+        margin-top: 0.7rem;
+    }
+
+    .cardTitulo{
+        font-size: 18px;
+    }
+
+    .cardTexto{
+        font-size: 12px;
+    }
+    
+
+
+    .imgInicio{
+        width: 60vw;
+        height: 39vh;
+        margin-left: 4.5rem;
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1920px) { 
+
+
+    .alinhamentoUser{
+        display: flex;
+    }
+
+    .titulo{
+        color: #ffffff;
+        font-size: 2.5rem;
+        margin-left: 6rem;
+        margin-top: 2rem;
+    }
+
+    .primeiroCard{
+        margin-left: 6rem;
+        margin-top: 1.5rem;
+    }
+
+    .segundoCard, .terceiroCard, .quartoCard{
+        margin-left: 6rem;
+        margin-top: 0.7rem;
+    }
+
+    .cardDashboard{
+        display: flex;
+        border: none;
+        background-color: #1C1B20;
+        align-items: center;
+        text-decoration: none;
+        width: 35vw;
+        border-radius: 1vh;
+    }
+
+    .imgBotaoUser{
+        height: 3rem;
+    }
+
+    .texto{
+        margin-left: 2rem;
+        width: 25vw;
+        text-align: left;
+        color: #F2F2F2;
+        margin-top: 0.7rem;
+    }
+
+    .cardTitulo{
+        font-size: 1.5rem;
+    }
+
+    .cardTexto{
+        font-size: 0.8rem;
+    }
+
+
+
+    .imgInicio{
+        width: 30vw;
+        height: 100vh;
+        margin-left: 15rem;
+    }
+
+}

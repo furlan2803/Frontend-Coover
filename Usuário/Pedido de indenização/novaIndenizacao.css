@@ -1,0 +1,489 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #19191D;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width: 320px) and (max-width: 480px) { 
+
+
+    .alinhamentoUser{
+        display: flex;
+    }
+
+    .navbar{
+        display: none;
+    }
+
+
+
+    .indenizacao{
+        display: inline-flex; 
+        align-items: flex-start;
+    }
+
+    .imgSeta{
+        margin-top: 3rem;
+        margin-left: 3rem;
+        width: 5vw;
+    }
+
+    .tituloIndenizacao{
+        margin-top: 4rem;
+        margin-left: 4rem;
+        color: #F2F2F2;
+    }
+
+    .imgEthereum{
+        margin-top: 4rem;
+        margin-left: 2rem;
+    }
+
+
+
+    .textoNovaIndenizacao{
+        color: #F2F2F2;
+        margin-top: 2rem;
+        margin-left: 3rem;
+    }
+
+
+
+
+
+
+    .cardIndenizacao{
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .informacoesGrupo{
+        display: flex;
+    }
+
+    .gruposUser{
+        color: #F2F2F2; 
+        margin-left: 3rem;
+        margin-top: 1rem;
+        font-weight: normal;
+    }
+
+    .selecaoGrupo{
+        display: flex;
+        border: none;
+        background-color: #1F1F22;
+        align-items: center;
+        text-decoration: none;
+        width: 80vw;
+        color: #F2F2F2;
+        margin-left: 3rem;
+        margin-top: 0.5rem;
+        height: 5vh;
+        border-radius: 8px;    
+    }
+
+    .textoSelecionaGrupo{
+        color: #F2F2F2;
+    }
+
+    .selecaoOcorrido{
+        display: flex;
+        border: none;
+        background-color: #1C1B20;
+        align-items: center;
+        text-decoration: none;
+        width: 80vw;
+        color: #F2F2F2;
+        margin-left: 2rem;
+        height: 5vh;
+        border-radius: 1vh;
+    }
+    
+    .textoSelecionaOcorrido{
+        color: #F2F2F2;
+    }
+
+
+    .informacoesOcorrido{
+        display: flex;
+    }
+
+    .dataOcorrido{
+        margin-left: 3rem;
+        margin-top: 1rem;
+    }
+
+    .textoDataOcorrido, .textoOcorrido{
+        color: #F2F2F2;
+        font-weight: normal;
+    }
+
+    .inputDataOcorrido{
+        background-color: #1F1F22;
+        margin-top: 0.5rem;
+        width: 35vw;
+        border: none;
+        color: #F2F2F2;
+        border-radius: 8px;
+        height: 5vh;
+    }
+
+    .ocorrido{
+        margin-left: 1.5rem;
+        margin-top: 1rem;
+    }
+
+
+    .selecaoOcorrido{
+        display: flex;
+        border: none;
+        background-color: #1F1F22;
+        align-items: center;
+        text-decoration: none;
+        width: 38vw;
+        color: #F2F2F2;
+        margin-top: 0.5rem;
+        height: 5vh;
+        border-radius: 1vh;
+        margin-left: 0rem;
+    }
+    
+    .textoSelecionaOcorrido{
+        color: #F2F2F2;
+    }
+
+
+
+
+    .tituloDescricao{
+        color: #F2F2F2;
+        font-weight: normal;
+        margin-left: 3rem;
+        margin-top: 2rem;
+    }
+
+    .caixaArquivo{
+        margin-left: 3rem;
+        margin-top: 1rem;
+        width: 80vw;
+        padding: 2rem;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+    }
+    .textoArquivo{
+        color: #F2F2F2;
+        font-weight: normal;
+        margin-left: 0rem;
+        margin-bottom: 1rem;
+        margin-top: 0rem;
+    }
+    .botaoEnviar{
+        margin-top: 2rem;
+        width: 20vw;
+        padding: 10px;
+        background-color: #00C171;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+    .botaoSolicitar{
+        margin-top: 2rem;
+        width: 80vw;
+        margin-left: 3rem;
+        padding: 10px;
+        background-color: #00C171;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+
+    .imgIndenizacao{
+        display: none;
+    }
+}
+
+
+
+@media (min-width: 1024px) and (max-width: 1920px) { 
+
+
+    .alinhamentoUser{
+        display: flex;
+    }
+
+    .navbar{
+        width: 15vw;
+        display: flex;
+        flex-direction: column;
+        background-color: #09090A;
+    }
+
+    .logo {
+        width: 10vw;
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+
+    .pesquisa{
+        width: 13vw;
+        margin-top: 3rem;
+        margin-left: 1rem;
+        padding: 0.8rem;
+        display: flex;
+        border: none;
+        outline: none;
+        border-radius: 8rem;
+        background-color: #1F1F22;
+    }
+
+    .barraPesquisa{
+        background-color: #1F1F22;
+        width: 10vw;
+        border: none;
+        text-indent: 1.3rem;
+        color: #EFEFEF;
+        font-size: .8rem;
+    }
+
+    .opcoesNavbar{
+        margin-top: 1.5rem;
+        padding-top: 2rem;
+        padding-left: 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        list-style: none;
+    }
+
+    .sidebarInicio, .sidebarSolicitacoes, .sidebarIndenizacoes{
+        display: flex;
+        margin-bottom: 1.2rem;
+    }
+
+    .imgSidebar{
+        margin-left: 1.5rem;
+    }
+
+    .textoSidebar{
+        margin-left: 1rem;
+        font-size: 1rem;
+        text-decoration: none;
+        color: #EFEFEF;
+
+    }
+
+    .saida {
+        margin-top: 22vw;
+        background-color: transparent;
+        border: none;
+        margin-top: 12.5rem;
+    }
+
+
+
+
+    .indenizacao{
+        display: inline-flex; 
+        align-items: flex-start;
+    }
+
+    .imgSeta{
+        margin-top: 3rem;
+        margin-left: 3rem;
+        width: 1vw;
+    }
+
+    .tituloIndenizacao{
+        margin-top: 4rem;
+        margin-left: 4rem;
+        color: #F2F2F2;
+    }
+
+    .imgEthereum{
+        margin-top: 4rem;
+        margin-left: 2rem;
+    }
+
+
+
+    .textoNovaIndenizacao{
+        color: #F2F2F2;
+        margin-top: 2rem;
+        margin-left: 3rem;
+    }
+
+
+
+
+
+
+    .cardIndenizacao{
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .informacoesGrupo{
+        display: flex;
+    }
+
+    .gruposUser{
+        color: #F2F2F2; 
+        margin-left: 3rem;
+        margin-top: 0rem;
+        font-weight: normal;
+    }
+
+    .selecaoGrupo{
+        display: flex;
+        border: none;
+        background-color: #1F1F22;
+        align-items: center;
+        text-decoration: none;
+        width: 35vw;
+        color: #F2F2F2;
+        margin-left: 3rem;
+        margin-top: 0.5rem;
+        height: 6vh;
+        border-radius: 8px;    
+    }
+
+    .textoSelecionaGrupo{
+        color: #F2F2F2;
+    }
+
+
+
+
+    .informacoesOcorrido{
+        display: flex;
+    }
+
+    .dataOcorrido{
+        margin-left: 3rem;
+        margin-top: 1rem;
+    }
+
+    .textoDataOcorrido, .textoOcorrido{
+        color: #F2F2F2;
+        font-weight: normal;
+    }
+
+    .inputDataOcorrido{
+        background-color: #1F1F22;
+        margin-top: 0.5rem;
+        border: none;
+        color: #F2F2F2;
+        border-radius: 8px;
+        height: 5vh;
+        width: 12vw;
+
+    }
+
+    .ocorrido{
+        margin-left: 3rem;
+        margin-top: 1rem;
+    }
+
+
+    .selecaoOcorrido{
+        display: flex;
+        border: none;
+        background-color: #1F1F22;
+        align-items: center;
+        text-decoration: none;
+        width: 19.2vw;
+        color: #F2F2F2;
+        margin-top: 0.5rem;
+        height: 5vh;
+        border-radius: 1vh;
+    }
+    
+    .textoSelecionaOcorrido{
+        color: #F2F2F2;
+    }
+
+
+    .tituloDescricao{
+        color: #F2F2F2;
+        font-weight: normal;
+        margin-left: 3rem;
+        margin-top: 0.7rem;
+    }
+
+    .caixaArquivo{
+        margin-left: 3rem;
+        margin-top: 1rem;
+        padding: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        width: 35vw;
+    }
+    .textoArquivo{
+        color: #F2F2F2;
+        font-weight: normal;
+        margin-left: 0rem;
+        margin-top: 0rem;
+        margin-bottom: 1rem;
+    }
+    .botaoEnviar{
+        width: 10vw;
+        margin-top: 1rem;
+        padding: 10px;
+        background-color: #00C171;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        margin-right: 2rem;
+    }
+
+    .botaoSolicitar{
+        margin-top: 1rem;
+        width: 35vw;
+        margin-left: 3rem;
+        padding: 10px;
+        background-color: #00C171;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+
+
+    .img{
+        margin-left: 10rem;
+        margin-top: 10rem;
+    }
+    .imgIndenizacao{
+        width: 25vw;
+        height: 60vh;
+    }
+}
+
+
+
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
